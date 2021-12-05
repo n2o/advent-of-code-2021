@@ -9,3 +9,4 @@
    (filter #(< (first %) (second %))
            (partition 2 1 input))))
 
+(println solution-silver)
