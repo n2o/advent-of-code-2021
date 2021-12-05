@@ -14,7 +14,7 @@
 
 (def solution-gold
   (count-second-bigger
-   (map #(+ (first %) (second %) (nth % 2))
+   (map #(apply + %)
         (partition 3 1 input))))
 
 (println solution-silver)
